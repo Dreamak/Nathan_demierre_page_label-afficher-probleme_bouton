@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+{% block title %} Homepage FILMS {% endblock %}
+{% block body %}
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+						<h3>
+				Hello et Bienvenue,
+
+				Vous allez passer un week-end ou des vac
+			</h3>
+			<p>
+				Hello et Bienvenue <br>
+			</p>
+			<ul>
+				<li class="list-item">
+					Il faut que vous adaptiez mon code à votre base de données.
+				</li>
+			</ul>
+
+<div class="d-flex align-items-end flex-column" style="height: 200px;">
+	<div class="card text-white bg-primary mb-3" style="display: flex;justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;">
+  				<h3 class="card-header">Activité</h3>
+		<div class="card-body">
+    		<h5 class="card-title">Site officiel Lenk</h5>
+
+  		</div>
+  			<img class="card-img-top" style="height:500px;width:500px;"src="{{ url_for('static', filename='images/Lenk_Village.jpg') }}" alt="Card image cap">
+  		<div class="card-body">
+    		<p class="card-text">Vous pouvez voir sous les liens si dessous des liens utile pour vos vaccances avec des activités qui sont disponibles</p>
+  		</div>
+  		<ul class="list-group list-group-flush">
+    		<li class="list-group-item">Cras justo odio</li>
+    		<li class="list-group-item">Dapibus ac facilisis in</li>
+    		<li class="list-group-item">Vestibulum at eros</li>
+  		</ul>
+  	<div class="card-body">
+		<a href="https://lenk-simmental.ch/fr/" class="card-link">Site Officiel Lenk Français</a>
+		<a href="https://lenk-simmental.ch/" class="card-link">Site Officiel Lenk Allemand</a>
+		<a href="https://lenk-simmental.ch/en/" class="card-link">Site Officiel Lenk Anglais</a>
+	</div>
+
+</div>
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Card title</h4>
+    	<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    		<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    		<a href="#" class="card-link">Card link</a>
+    		<a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+</div>
+
+			<h3>
+				Pour les activité d'été vous pouvez consulter les sites suivant :
+			</h3>
+			<ul>
+				<li class="list-item">
+					Site officiel de la Lenk : https://lenk-simmental.ch/fr/
+				</li>
+				<li class="list-item">
+					On réalise UNIQUEMENT (choix de OM de la 707) l'action READ du CRUD(Create Read Update Delete) sur la table "t_contenu".
+				</li>
+				<li class="list-item">
+					Il faut tester le système de gestion des erreurs selon la liste du premier exercice.
+				</li>
+			</ul>
+			<h3>
+				VOTRE travail pour cet exercice : (lire aussi le readme.md)
+			</h3>
+			<ul>
+				<li class="list-item">
+					Placer votre fichier DUMP au bon endroit comme pour le premier exercice.
+				</li>
+				<li class="list-item">
+					L'importer grâce au fichier zzzdemos/1_ImportationDumpSql.py
+				</li>
+				<li class="list-item">
+					Adapter les changements pour que UNE seule table de votre projet s'affiche.
+				</li>
+				<li class="list-item">
+					Niveau sup. : Adapter les changements pour que toutes les tables principales de votre projet s'affichent (pas les tables intermédiaires)
+				</li>
+				<li class="list-item">
+					Quel que soit l'état de votre exercice. Vous devez le mettre à ma disposition sur Gitlab comme le premier exercice.
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+{% endblock %}
